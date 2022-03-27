@@ -80,8 +80,9 @@ class Trie {
         queue.push(searchNode);
 
         while(queue.length !== 0){
-            let currentNode = queue.shift();
-            for(const [data,child] of currentNode.children){
+            let currentNode = queue.shift();//{ 'a' : { data: 'ca', end: false, children: Map('t', 'cat')}}
+            //레벨 순회 BFS
+            for(const [key,child] of currentNode.children){
        // console.log(child)
                 if(child.children.size === 0){ //자식이 없는애 == 마지막 노드 
                     searchList.push(child.data);//마지막 노드의 data searchList에 추가

@@ -17,7 +17,7 @@ class Tree {
         // root만 출력해도 tree를 볼 수 있으니까 아래는 currentNode.data 따로 출력할 거 아니면 필요 없어
         // while( queue.length ){
         //     const currentNode = queue.shift();
-        //     console.log(currentNode.data);
+        //     console.log(currentNode.data);                                                    
         //     if(currentNode.left) queue.push(currentNode.left);
         //     if(currentNode.right) queue.push(currentNode.right);
         // }
