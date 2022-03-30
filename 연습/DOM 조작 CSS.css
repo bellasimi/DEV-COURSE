@@ -1,0 +1,31 @@
+.toolbar {
+    width: 600px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: bisque;
+    box-sizing: border-box;
+}
+
+.toolbar button {
+    height: 24px;
+    border: 2px solid black;
+    background-color: whilte;
+    cursor: pointer;
+}
+
+.toolbar button:hover {
+    background-color: grey;
+}
+
+.editor {
+    width: 600px;
+    height: 600px;
+    padding: 16px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    outline: none;/* 클릭시 아웃라인 파란색으로 바꾸지 않아 */
+    box-sizing: border-box;
+}
